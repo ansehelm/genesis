@@ -9,8 +9,3 @@ Libs(Library)
 Public
 - images
 - css
-<<<<<<< HEAD
-- js
-=======
-- js
->>>>>>> Listing the folder's usage
