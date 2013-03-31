@@ -1,0 +1,24 @@
+// Layouts
+@base-em          : 16;
+@base-font        : 16;
+@base-line        : 20px;
+
+// Colors
+@color-pri        : #113A6C;
+@color-sec        : spin(@color-pri, 180);
+@font-color       : #555;
+
+// Fonts
+@body-font-family : 'Cinzel', "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "STXihei", "华文细黑", "sans-serif";
+@body-font-color  : #555;
+
+// Borders
+@global-radius    : 3px;
+@global-rounded   : 1000px;
+
+// Functions
+#emCalc(@pxWidth) {
+	font-size       :(@pxWidth / @base-em * 1em);
+}
+
+i {font-size:@base-font*2;}
