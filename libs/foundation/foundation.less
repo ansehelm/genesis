@@ -2798,3 +2798,12 @@ table {
 .m3 { margin-bottom: 30px; }
 .m4 { margin-bottom: 20px; }
 .m5 { margin-bottom: 10px; }
+.m6 { margin-bottom: 0px; }
+
+
+// Functions
+#pxtoem {
+.font-size( @target: @base-em, @context: @base-font ) {
+font-size: (@target / @context) + 0em;
+}
+}

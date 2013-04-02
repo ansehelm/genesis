@@ -1,7 +1,6 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
 	<?php echo head(); ?>
-</head>
 <body>
 	<?php include($path); ?>
 	<?php echo javascripts(); ?>
