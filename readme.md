@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##Genesis
 
 Controller - reusable functions
@@ -58,4 +57,6 @@ $user->name = 'Tito Jr';
 $user->save();
 $user->delete();
 ```
->>>>>>> -
+
+
+Updated Apr 2 4:14pm
